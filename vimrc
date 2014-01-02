@@ -15,8 +15,11 @@ set ruler
 set wrap
 set linebreak
 
-" Cancel searched highlight
+" Enter to cancel searched highlight
 noremap <CR> :nohlsearch<CR>
+
+" jj = <ESC>
+inoremap jj <ESC>
 
 " Force myself not to use arrow keys
 noremap <Up> <Nop>
