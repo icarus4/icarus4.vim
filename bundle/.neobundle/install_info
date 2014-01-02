@@ -1,2 +1,2 @@
 2.0
-{'neobundle.vim': {'checked_time': 1388647610, 'installed_uri': 'https://github.com/Shougo/neobundle.vim.git', 'installed_path': '/Users/icarus4/.vim/bundle/neobundle.vim', 'updated_time': '1388207753'}}
+{'vim-easymotion': {'checked_time': 1388649185, 'installed_uri': 'https://github.com/Lokaltog/vim-easymotion.git', 'installed_path': '/Users/icarus4/.vim/bundle/vim-easymotion', 'updated_time': '1320686181'}, 'neobundle.vim': {'checked_time': 1388647610, 'installed_uri': 'https://github.com/Shougo/neobundle.vim.git', 'installed_path': '/Users/icarus4/.vim/bundle/neobundle.vim', 'updated_time': '1388207753'}}
