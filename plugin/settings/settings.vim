@@ -19,6 +19,8 @@ set encoding=utf-8
 set history=1000				" keep 1000 lines of command line history
 set scrolloff=5					" start scrolling when n lines away from margins
 
+let mapleader=","
+
 " Enter to cancel searched highlight
 noremap <CR> :nohlsearch<CR>
 
