@@ -13,6 +13,8 @@ set nocompatible
 set number
 set ruler						" show the cursor position all the time
 set smartindent
+set splitbelow					" splitting a window will put the new window below the current one
+set splitright					" splitting a window will put the new window right of the current one
 set wrap
 
 set encoding=utf-8
