@@ -1,8 +1,14 @@
 syntax on
 
+filetype on
+filetype indent on
+filetype plugin on
+
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+
+autocmd filetype ruby set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 
 set cindent
 set hlsearch
