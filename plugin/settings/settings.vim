@@ -50,3 +50,10 @@ inoremap <Up> <Nop>
 inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
+
+" Arrow key to switch windows
+nmap <silent> <Left> :wincmd h<CR>
+nmap <silent> <Down> :wincmd j<CR>
+nmap <silent> <Up> :wincmd k<CR>
+nmap <silent> <Right> :wincmd l<CR>
+
