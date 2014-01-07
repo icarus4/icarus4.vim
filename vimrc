@@ -24,6 +24,9 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 "
 " Note: You don't set neobundle setting in .gvimrc!
 NeoBundle 'Lokaltog/vim-easymotion'
+NeoBundle 'tpope/vim-rails'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'jistr/vim-nerdtree-tabs'
 " ...
 
 filetype plugin indent on     " Required!
