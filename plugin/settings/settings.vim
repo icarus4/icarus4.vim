@@ -31,10 +31,13 @@ set wildmenu					" make tab completion for files/buffers act like bash
 set wrap
 
 
-let mapleader="m"
+let mapleader=","
 
 " Enter to cancel searched highlight
 noremap <CR> :nohlsearch<CR>
+
+" Save
+nnoremap <leader>w :w<CR>
 
 " jj = <ESC>
 inoremap jj <ESC>
@@ -61,9 +64,15 @@ nmap <silent> <Down> :wincmd j<CR>
 nmap <silent> <Up> :wincmd k<CR>
 nmap <silent> <Right> :wincmd l<CR>
 
+" Another way to switch to left/right window
+nmap <silent> <leader>h :wincmd h<CR>
+nmap <silent> <leader>l :wincmd l<CR> 
+nmap <silent> <leader>j :wincmd j<CR> 
+nmap <silent> <leader>k :wincmd k<CR> 
+
 " Tab switching
 noremap <F7> gT
 noremap <F8> gt
 
-" quick open vimrc in a new tab
-nmap <leader>v :tabe $MYVIMRC<CR>
+" quick source .vimrc
+nmap <leader>v :so $MYVIMRC<CR>

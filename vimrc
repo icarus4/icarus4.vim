@@ -27,6 +27,12 @@ NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'jistr/vim-nerdtree-tabs'
+NeoBundle 'tpope/vim-endwise'
+NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'tomtom/tlib_vim'
+NeoBundle 'MarcWeber/vim-addon-mw-utils'
+NeoBundle 'garbas/vim-snipmate'
+NeoBundle 'honza/vim-snippets'
 " ...
 
 filetype plugin indent on     " Required!
