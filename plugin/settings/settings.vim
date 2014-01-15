@@ -49,8 +49,8 @@ vmap <TAB> >gv
 vmap <S-TAB> <gv 
 
 " Force myself not to use arrow keys
-noremap <Up> <Nop>
-noremap <Down> <Nop>
+"noremap <Up> <Nop>
+"noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 inoremap <Up> <Nop>
@@ -76,3 +76,7 @@ noremap <F8> gt
 
 " quick source .vimrc
 nmap <leader>v :so $MYVIMRC<CR>
+
+" Page up/down
+nnoremap <Up> <C-b>
+nnoremap <Down> <C-f>
