@@ -34,6 +34,10 @@ NeoBundle 'MarcWeber/vim-addon-mw-utils'
 NeoBundle 'garbas/vim-snipmate'
 NeoBundle 'honza/vim-snippets'
 NeoBundle 'elzr/vim-json'
+NeoBundle 'Lokaltog/vim-powerline'
+"NeoBundle 'ervandew/supertab'
+"NeoBundle 'pangloss/vim-javascript'
+"NeoBundle 'skammer/vim-css-color'
 " ...
 
 filetype plugin indent on     " Required!

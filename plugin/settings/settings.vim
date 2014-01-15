@@ -26,12 +26,15 @@ set showtabline=2				" always show tab
 set scrolloff=5					" start scrolling when n lines away from margins
 set splitbelow					" splitting a window will put the new window below the current one
 set splitright					" splitting a window will put the new window right of the current one
+set t_Co=256
 set ttyfast						" send more chars while redrawing
 set wildmenu					" make tab completion for files/buffers act like bash
 set wrap
 
-
 let mapleader=","
+
+" vim-powerline
+let g:Powerline_symbols = 'fancy'
 
 " Enter to cancel searched highlight
 noremap <CR> :nohlsearch<CR>
