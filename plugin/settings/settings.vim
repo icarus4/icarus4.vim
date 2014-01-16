@@ -9,7 +9,7 @@ set softtabstop=4
 set shiftwidth=4
 
 autocmd filetype ruby set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
-
+ 
 set cindent
 set encoding=utf-8
 set hlsearch
@@ -83,3 +83,11 @@ nmap <leader>v :so $MYVIMRC<CR>
 " Page up/down
 nnoremap <Up> <C-b>
 nnoremap <Down> <C-f>
+
+" Switch - and _
+inoremap - _
+inoremap _ -
+
+" Switch ; and :
+inoremap ; :
+inoremap : ;
