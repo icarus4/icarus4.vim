@@ -10,6 +10,7 @@ set shiftwidth=4
 
 autocmd filetype ruby set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
  
+set autoread					" Auto reload when file is changed from outside 
 set cindent
 set encoding=utf-8
 set hlsearch
@@ -18,6 +19,7 @@ set incsearch
 set ignorecase
 set linebreak
 set nocompatible
+set noswapfile
 set number
 set ruler						" show the cursor position all the time
 set smartindent
@@ -54,12 +56,12 @@ vmap <S-TAB> <gv
 " Force myself not to use arrow keys
 "noremap <Up> <Nop>
 "noremap <Down> <Nop>
-noremap <Left> <Nop>
-noremap <Right> <Nop>
-inoremap <Up> <Nop>
-inoremap <Down> <Nop>
-inoremap <Left> <Nop>
-inoremap <Right> <Nop>
+"noremap <Left> <Nop>
+"noremap <Right> <Nop>
+"inoremap <Up> <Nop>
+"inoremap <Down> <Nop>
+"inoremap <Left> <Nop>
+"inoremap <Right> <Nop>
 
 " Arrow key to switch windows
 nmap <silent> <Left> :wincmd h<CR>
@@ -85,9 +87,9 @@ nnoremap <Up> <C-b>
 nnoremap <Down> <C-f>
 
 " Switch - and _
-inoremap - _
-inoremap _ -
+"inoremap - _
+"inoremap _ -
 
 " Switch ; and :
-inoremap ; :
-inoremap : ;
+"inoremap ; :
+"inoremap : ;
