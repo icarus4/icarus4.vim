@@ -64,10 +64,10 @@ vmap <S-TAB> <gv
 "inoremap <Right> <Nop>
 
 " Arrow key to switch windows
-nmap <silent> <Left> :wincmd h<CR>
-nmap <silent> <Down> :wincmd j<CR>
-nmap <silent> <Up> :wincmd k<CR>
-nmap <silent> <Right> :wincmd l<CR>
+"nmap <silent> <Left> :wincmd h<CR>
+"nmap <silent> <Down> :wincmd j<CR>
+"nmap <silent> <Up> :wincmd k<CR>
+"nmap <silent> <Right> :wincmd l<CR>
 
 " Another way to switch to left/right window
 nmap <silent> <leader>h :wincmd h<CR>
@@ -81,10 +81,6 @@ noremap <F8> gt
 
 " quick source .vimrc
 nmap <leader>v :so $MYVIMRC<CR>
-
-" Page up/down
-nnoremap <Up> <C-b>
-nnoremap <Down> <C-f>
 
 " Switch - and _
 "inoremap - _
