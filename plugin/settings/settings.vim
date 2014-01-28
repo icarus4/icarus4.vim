@@ -9,6 +9,7 @@ set softtabstop=4
 set shiftwidth=4
 
 autocmd filetype ruby set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+autocmd filetype erb set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
  
 set autoread					" Auto reload when file is changed from outside 
 set cindent
