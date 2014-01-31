@@ -32,6 +32,7 @@ set splitright					" splitting a window will put the new window right of the cur
 set t_Co=256
 set ttyfast						" send more chars while redrawing
 set wildmenu					" make tab completion for files/buffers act like bash
+set wildmode=list,longest,full
 set wrap
 
 let mapleader=","
