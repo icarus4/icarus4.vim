@@ -30,6 +30,7 @@ set scrolloff=5					" start scrolling when n lines away from margins
 set splitbelow					" splitting a window will put the new window below the current one
 set splitright					" splitting a window will put the new window right of the current one
 set t_Co=256
+set timeoutlen=400
 set ttyfast						" send more chars while redrawing
 set wildmenu					" make tab completion for files/buffers act like bash
 set wildmode=list,longest,full
@@ -65,18 +66,6 @@ vmap <S-TAB> <gv
 "inoremap <Left> <Nop>
 "inoremap <Right> <Nop>
 
-" Arrow key to switch windows
-"nmap <silent> <Left> :wincmd h<CR>
-"nmap <silent> <Down> :wincmd j<CR>
-"nmap <silent> <Up> :wincmd k<CR>
-"nmap <silent> <Right> :wincmd l<CR>
-
-" Another way to switch to left/right window
-nmap <silent> <leader>h :wincmd h<CR>
-nmap <silent> <leader>l :wincmd l<CR> 
-nmap <silent> <leader>j :wincmd j<CR> 
-nmap <silent> <leader>k :wincmd k<CR> 
-
 " Tab switching
 noremap <F7> gT
 noremap <F8> gt
@@ -84,10 +73,3 @@ noremap <F8> gt
 " quick source .vimrc
 nmap <leader>v :so $MYVIMRC<CR>
 
-" Switch - and _
-"inoremap - _
-"inoremap _ -
-
-" Switch ; and :
-"inoremap ; :
-"inoremap : ;

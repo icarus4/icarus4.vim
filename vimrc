@@ -36,17 +36,17 @@ NeoBundle 'honza/vim-snippets'
 NeoBundle 'elzr/vim-json'
 NeoBundle 'Lokaltog/vim-powerline'
 NeoBundle 'tangledhelix/vim-octopress'
-"NeoBundle 'othree/vim-autocomplpop'
 NeoBundle 'clones/vim-l9'
-"NeoBundle 'ervandew/supertab'
 NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'sukima/xmledit'
 NeoBundle 'vim-scripts/indent-motion'
 NeoBundle 'Valloric/YouCompleteMe'
+" ...
+"NeoBundle 'othree/vim-autocomplpop'
+"NeoBundle 'ervandew/supertab'
 "NeoBundle 'pangloss/vim-javascript'
 "NeoBundle 'skammer/vim-css-color'
-" ...
 
 filetype plugin indent on     " Required!
 "
