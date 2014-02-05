@@ -36,6 +36,12 @@ set wildmenu					" make tab completion for files/buffers act like bash
 set wildmode=list,longest,full
 set wrap
 
+" Highlight cursor position
+set cursorline
+set cursorcolumn
+highlight CursorLine cterm=none ctermbg=236
+highlight CursorColumn cterm=none ctermbg=233
+
 let mapleader=","
 
 " vim-powerline
