@@ -30,7 +30,7 @@ set scrolloff=5					" start scrolling when n lines away from margins
 set splitbelow					" splitting a window will put the new window below the current one
 set splitright					" splitting a window will put the new window right of the current one
 set t_Co=256
-set timeoutlen=400
+set timeoutlen=500
 set ttyfast						" send more chars while redrawing
 set wildmenu					" make tab completion for files/buffers act like bash
 set wildmode=list,longest,full
@@ -39,7 +39,7 @@ set wrap
 " Highlight cursor position
 set cursorline
 set cursorcolumn
-highlight CursorLine cterm=none ctermbg=236
+highlight CursorLine cterm=none ctermbg=234
 highlight CursorColumn cterm=none ctermbg=233
 
 let mapleader=","

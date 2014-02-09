@@ -1,3 +1,6 @@
+" force split right
+set splitright
+
 " move cursor above the current window: alt+k
 nnoremap k <C-w>k
 " move cursor below: alt+j
